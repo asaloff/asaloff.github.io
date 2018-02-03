@@ -2,7 +2,7 @@
 
 
 
-/* ///////////////////////////////////////////////////////////////////// 
+/* /////////////////////////////////////////////////////////////////////
 // 03 - Preloader
 /////////////////////////////////////////////////////////////////////*/
 
@@ -453,7 +453,7 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/header-bg.jpg') right bottom no-repeat;
+	background: url('../img/aaron.jpg') right bottom no-repeat;
 	background-size: contain;
 	padding:110px 0 100px 0;
 	height:auto;
@@ -571,12 +571,16 @@ h1.arrow span {
     color: #E04343;
 }
 /* ==========================================================================About========================================================================== */
+@media screen and (max-width: 991px) {
+	.about-image {
+		background-size: 80%;
+	}
+}
 .about-image {
 	height:400px;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
+  background-size: 95%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .color-bg {
 	background: #E04343;
@@ -1208,7 +1212,7 @@ ul.slides li {
 
 	.btn-send {
 	    float: none;
-	
+
 	    margin-bottom: 80px;
 	}
 	.effects .img {
