@@ -1,4 +1,4 @@
-$(document).ready(() => {
+$(document).load(() => {
   const djelloUrl = 'https://s3.amazonaws.com/demo-gifs-asaloff/djello_optimized.gif';
   const fideligardUrl = 'https://s3.amazonaws.com/demo-gifs-asaloff/fideligard_optimized.gif';
   const superchatUrl = 'https://s3.amazonaws.com/demo-gifs-asaloff/superchat.gif';
