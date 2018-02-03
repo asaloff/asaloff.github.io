@@ -899,7 +899,7 @@ img.grayscale:hover {
 }
 .weight-outline-btn {
 	display:inline-block;
-	padding:20px 30px;
+	padding:10px;
 	color:#8C8C8C;
 	border:solid 1px #8C8C8C;
 	text-transform:uppercase;
@@ -909,6 +909,15 @@ img.grayscale:hover {
 .weight-outline-btn:hover,.outline-btn:focus {
 	color:#424242;
 	border: solid 1px #424242;
+}
+.github-btn {
+	padding:5px 10px 10px;
+	margin-right: 10px;
+}
+.fa-github {
+	font-size: 23px;
+	position: relative;
+  top: 3px;
 }
 /* ==========================================================================Team========================================================================== */
 .team img {

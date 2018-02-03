@@ -1,4 +1,10 @@
-
+$(document).ready(() => {
+	// wake dynos on heroku
+	fetch("https://react-fideligard.herokuapp.com/");
+	fetch("https://react-djello.herokuapp.com/");
+	fetch("https://node-express-live-chat.herokuapp.com/");
+	fetch("https://node-mimirs-market.herokuapp.com/");
+})
 /******************************************************************************************************************************
 Learn More Page Scroll
 *******************************************************************************************************************************/
