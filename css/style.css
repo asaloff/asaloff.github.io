@@ -453,11 +453,24 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/aaron.jpg') right bottom no-repeat;
-	background-size: contain;
-	padding:110px 0 100px 0;
 	height:auto;
 	background-color: #FBFBFB;
+}
+@media screen and (min-width: 992px) {
+	.row .inner {
+		display: flex;
+	}
+	.header-section {
+		flex: 1,
+		margin: auto;
+	}
+}
+.main-img-container {
+	display: flex;
+}
+.main-img {
+	max-height: 300px;
+	margin: auto;
 }
 .hero h1 {
 	font-size: 120px;
@@ -1137,7 +1150,6 @@ ul.slides li {
 	.hero h1 {
 		font-size: 100px;
 		line-height: 80px;
-		margin-top: 65px;
 }
 }
 /* 480px (WVGA - Low End Windows Phone) */
@@ -1206,11 +1218,6 @@ ul.slides li {
 
 /** Responsive fixes **/
 @media screen and (max-width:767px) {
-	.inner {
-    padding-top: 10px;
-    text-align: center;
-	}
-
 	.hero h3 {
 	    letter-spacing: 10px;
 	}
@@ -1253,5 +1260,11 @@ ul.slides li {
 
 	.subscribe {
 	    padding-bottom: 40px;
+	}
+}
+
+@media screen and (max-width:1199px) {
+	.inner {
+    text-align: center;
 	}
 }

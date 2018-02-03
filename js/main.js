@@ -1,9 +1,9 @@
 $(document).ready(() => {
 	// wake dynos on heroku
-	fetch("https://react-fideligard.herokuapp.com/");
-	fetch("https://react-djello.herokuapp.com/");
-	fetch("https://node-express-live-chat.herokuapp.com/");
-	fetch("https://node-mimirs-market.herokuapp.com/");
+	fetch("https://react-fideligard.herokuapp.com/", { mode: 'no-cors' });
+	fetch("https://react-djello.herokuapp.com/", { mode: 'no-cors' });
+	fetch("https://node-express-live-chat.herokuapp.com/", { mode: 'no-cors' });
+	fetch("https://node-mimirs-market.herokuapp.com/", { mode: 'no-cors' });
 })
 /******************************************************************************************************************************
 Learn More Page Scroll
