@@ -571,23 +571,29 @@ h1.arrow span {
     color: #E04343;
 }
 /* ==========================================================================About========================================================================== */
-@media screen and (max-width: 991px) {
-	.about-image {
-		background-size: 80%;
-	}
+.portfolio-img-container {
+	display: flex;
 }
-.about-image {
-	height:400px;
-  background-size: 95%;
-  background-repeat: no-repeat;
-  background-position: center;
+.portfolio-img {
+	margin: auto;
+	max-width: 95%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+@media screen and (min-width: 992px) {
+	.portfolio-row {
+		display: flex;
+	}
+	.portfolio-row .col-md-6 {
+	  flex: 1;
+	  padding: 1em;
+	}
 }
 .color-bg {
 	background: #E04343;
 }
-
 .color-bg a {
-    color: #FFE800;
+	color: #FFE800;
 }
 .color-bg h6, .color-bg p {
     color: white;
@@ -949,7 +955,7 @@ ul.social-buttons li:last-child {
 	line-height:52px;
 	text-align:center;
 	position:absolute;
-	top:-26px;
+	top:-15px;
 	left:0;
 	right:0;
 	margin-left:auto;
