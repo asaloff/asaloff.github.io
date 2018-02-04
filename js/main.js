@@ -4,6 +4,9 @@ $(document).ready(() => {
 	fetch("https://react-djello.herokuapp.com/", { mode: 'no-cors' });
 	fetch("https://node-express-live-chat.herokuapp.com/", { mode: 'no-cors' });
 	fetch("https://node-mimirs-market.herokuapp.com/", { mode: 'no-cors' });
+
+
+  if(document.images) (new Image()).src="img/aaron.jpg";
 })
 /******************************************************************************************************************************
 Learn More Page Scroll
