@@ -5,8 +5,6 @@ $(document).ready(() => {
 	fetch("https://node-express-live-chat.herokuapp.com/", { mode: 'no-cors' });
 	fetch("https://node-mimirs-market.herokuapp.com/", { mode: 'no-cors' });
 
-
-  if(document.images) (new Image()).src="https://s3.amazonaws.com/demo-gifs-asaloff/aaron.jpg";
 })
 /******************************************************************************************************************************
 Learn More Page Scroll
